@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    gap:25px;
+}
+
+.Home{
+    color: red;
+}
+
+.login{
+    width: 5%;
+    height: 3%;
+    color: red;
+}
+
+.joinNow{
+    width: 5%;
+    height: 3%;
+    background-color:rgb(244, 122, 142);
+    border-radius: 5%;
+}
+.Column1{
+    display: flex;
+    font-size: xx-large;
+}
+
+.input{
+width: 60%;
+height: 10%;
+}
+
+#get{
+color: red;
+}
+
+.Subscription{
+    display: flex;
+    gap: 4%;
+}
+ .Monthly{
+    display: flex;
+    gap: 2%;
+ }
+ .Guarantee{
+    display: flex;
+    gap: 2%;
+ }
+
+ .Column3{
+    display: flex;
+    gap: 10%;
+ }
+
+
+
