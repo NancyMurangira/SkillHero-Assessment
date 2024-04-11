@@ -8,7 +8,7 @@
 }
 
 .login{
-    width: 5%;
+    width: 4%;
     height: 3%;
     color: red;
 }
@@ -22,6 +22,10 @@
 .Column1{
     display: flex;
     font-size: xx-large;
+}
+.Column1 img{
+    padding-left: 200px;
+    width: 400px;
 }
 
 .input{
@@ -52,4 +56,25 @@ color: red;
  }
 
 
+ @media screen and (min-width:375px) and (max-width:435px){
 
+    .navbar{
+        font-size: 9px;
+        display:grid;
+    }
+    
+    .Column1{
+       display: grid;
+    }
+
+    .Column3{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .Column1 img{
+        padding-left: 10px;
+        width: 200px;
+    }
+
+ }
